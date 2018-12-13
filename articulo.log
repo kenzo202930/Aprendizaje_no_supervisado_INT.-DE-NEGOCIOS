@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.16)  13 DEC 2018 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.16)  13 DEC 2018 14:44
 entering extended mode
 **./articulo.tex
 (articulo.tex
@@ -179,12 +179,6 @@ LaTeX Warning: Label `sec:nada' multiply defined.
 
 LaTeX Warning: Label `sec:nada2' multiply defined.
 
-
-LaTeX Warning: Label `sec:nada' multiply defined.
-
-
-LaTeX Warning: Label `sec:nada2' multiply defined.
-
 )
 \openout1 = `articulo.aux'.
 
@@ -232,9 +226,6 @@ LaTeX Warning: Reference `eq:area' on page 2 undefined on input line 166.
 
 LaTeX Warning: Reference `eq:area' on page 3 undefined on input line 192.
 
-
-LaTeX Warning: Reference `eq:area' on page 3 undefined on input line 217.
-
 [3] (articulo.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
@@ -248,7 +239,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  1991 strings out of 492973
- 25701 string characters out of 3126692
+ 25573 string characters out of 3126692
  98109 words of memory out of 3000000
  5867 multiletter control sequences out of 15000+200000
  12647 words of font info for 48 fonts, out of 3000000 for 9000
@@ -266,7 +257,7 @@ mr17.pfb><C:/Users/KENZO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmr6.pfb><C:/Users/KENZO/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr9.pfb><C:/Users/KENZO/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on articulo.pdf (3 pages, 118479 bytes).
+Output written on articulo.pdf (3 pages, 118075 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
