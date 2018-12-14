@@ -43,7 +43,7 @@
 
 %--------------------------------------------------------------------------
 \title{Aprendizaje no supervisado}
-\author{Renzo Moreno, Gary Calle, Leonardo Acevedo, Tomy Morales,\\ Hern\'an Condori \\
+\author{Renzo Moreno, Gary Calle, Leonardo Acevedo, Tommy Morales,\\ Hern\'an Condori \\
   \small Uiversidad Privada de Tacna\\
  % \small E12345\\
   \small Per\'u
@@ -111,13 +111,22 @@ M�s texto.
 \section{Marco Te\'orico}
 
 % en esta seccion agregar su parte--------------------------------------------------------------
-llenar aqui el texto de introduccion
-\begin{equation}\\label{eq:area}
-  S = \pi r^2
+prendizaje no supervisado es un método de Aprendizje Automático donde un modelo es ajustado a las observaciones. Se distingue del Aprendizaje Supervisado por el hecho de que no hay un conocimiento a priori. En el aprendizaje no supervisado, un conjunto de datos de objetos de entrada es tratado. Así, el aprendizaje no supervisado típicamente trata los objetos de entrada como un conjunto de variables aleatorias, siendo construido un modelo de densidad para el conjunto de datos. \\
+
+El aprendizaje no supervisado puede ser usado en conjunto con la inferencia bayesiana para producir probabilidades condicionales (es decir, aprendizaje supervisado) para cualquiera de las variables aleatorias dadas. El Santo Grial del aprendizaje no supervisado es la creación de un código factorial de los datos, esto es, un código con componentes estadísticamente independientes. El aprendizaje supervisado normalmente funciona mucho mejor cuando los datos iniciales son primero traducidos en un código factorial.\\
+
+Los algoritmos de aprendizaje no supervisado suelen ser de dos tipos: \\
+
+Aprendizaje hebbiano : pretende medir la familiaridad o extraer características de los datos de entrada. Este aprendizaje consiste básicamente en el ajuste de los pesos de las conexiones de acuerdo con la correlación de los valores de activación (salidas) de las dos neuronas conectadas : \\
+
+\begin{equation}\\l
+  Incr (wji) = yi yj
 \end{equation}
-Uno puede referirse a ecuaciones as�: ver ecuaci�n (\ref{eq:area}).
-Tambi�n se pueden mencionar secciones de la misma forma: ver secci�n
-\ref{sec:nada}. O citar algo de la bibliograf�a: \cite{Cd94}.
+
+Si las dos unidades son activas (salida positiva), se produce un reforzamiento de la conexión. Si por el contrario, una es activa y la otra pasiva (salida negativa), se produce un debilitamiento de la conexión. Por tanto, la modificación de los pesos se realiza en función de los estados (salidas) de las neuronas, obtenidos tras la presentación de cierto estímulo (información de entrada), sin tener en cuenta si se deseaba obtener o no esos estados de activación.\\
+Este tipo de aprendizaje se utiliza en la RED HOPFIELD (1982), ADDITIVE GROSSBERG (1973), LEARNING MATRIX (1961), BIDIRECTIONAL ASSOCIATIVE MEMORY (1988), TEMPORAL ASSOCIATIVE MEMORY (1972). Estas dos últimas son redes feedforward/feedback de 2 capas.\\
+Aprendizaje competitivo y cooperativo : las neuronas compiten unas con otras con el fin de llevar a cabo una tarea dada. Se pretende que cuando se presente a la red cierta información, sólo una o un grupo de ellas se activen. Por tanto las neuronas compiten por activarse, quedando las perdedoras a sus valores de respuesta mínimos. La conexión entre neuronas se realiza en todas las capas de la red, existiendo en estas neuronas conexiones recurrentes de autoexcitación y conexiones de inhibición (signo negativo) por parte de neuronas vecinas.
+
 %------------------------------------------------------------------------------------------------------
 
 \subsection{Subsection}\label{sec:nada}
@@ -136,13 +145,7 @@ M�s texto.
 \section{Ejemplo}
 
 % en esta seccion agregar su parte--------------------------------------------------------------
-llenar aqui el texto de introduccion
-\begin{equation}\\label{eq:area}
-  S = \pi r^2
-\end{equation}
-Uno puede referirse a ecuaciones as�: ver ecuaci�n (\ref{eq:area}).
-Tambi�n se pueden mencionar secciones de la misma forma: ver secci�n
-\ref{sec:nada}. O citar algo de la bibliograf�a: \cite{Cd94}.
+El ejemplo clásico de aprendizaje no supervisado en el estudio de redes neuronales es el principio de Donald Hebb, es decir, las neuronas que se unen se conectan entre sí. En el aprendizaje de Hebbian, la conexión se refuerza independientemente de un error, pero es exclusivamente una función de la coincidencia entre los potenciales de acción entre las dos neuronas. Una versión similar que modifica los pesos sinápticos toma en cuenta el tiempo entre los potenciales de acción (plasticidad dependiente del tiempo de espiga o STDP). Se ha planteado la hipótesis de que Hebbian Learning subyace en una serie de funciones cognitivas, como el reconocimiento de patrones y el aprendizaje experiencial.
 %------------------------------------------------------------------------------------------------------
 
 \subsection{Subsection}\label{sec:nada}
